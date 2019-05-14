@@ -39,3 +39,4 @@ public List<User> createUser(@Requestbody User user){
 ## React!
 
 jQuery is too low level. Fix the gap between anjuar 1 and 2.
+Responsive for immdeiate feedback. Dynamically load the DOM, single page application. SPA.
