@@ -17,7 +17,10 @@ Not all browers support ES6. like import. We will stick on the React.
 React.dom is speficing on the DOM.  Export the class the function and variables.  
 React <-> React.DOM <-> Regular HTML.
 
+React.DOM is only used in the index.js in the high level.
+
 React use the jsx, the intermix of js and html.  
+
 ```js
 export default App;
 //in the in end of the react.js
@@ -34,3 +37,43 @@ For the node world, download the packages from npm repository.
 
 ## React + BOOTSTRAP
 
+```bash
+npm install bootstrap
+#if you want to update package.json
+
+npm install bootstrap --save
+```
+
+Don't forget update the package.json.  Keep looking.  It's safer to copy than import directly.
+
+Whiteboard.js
+
+```js
+import React from 'react'
+
+export default class Whiteboard extends React.Component {
+    render() {
+        // can do any computation here and return in the return statement.
+        return(
+            // the top level should be always one element
+            <div className = "container-fluid">
+                <h1> WhiteBoard </h1>
+            </div>
+        )
+    }
+}
+//the syntax of export is like the syntax of modifier like java.
+```
+
+## BOOTSTRAP CARDS & DECKS [More information on the github]
+
+Create a card to provide small summaries.  
+Style can take the json object as the css style. Even you can call a function in the style on the fly.
+
+### parameterized Message component
+
+constructor, super, props. pass the parameters to the compounent. 
+
+### Creating a Stateless compounent.
+
+Pure function . as constructor. 
