@@ -74,6 +74,8 @@ Style can take the json object as the css style. Even you can call a function in
 
 constructor, super, props. pass the parameters to the compounent. 
 
-### Creating a Stateless compounent.
+### Creating a Stateless compounent
 
-Pure function . as constructor. 
+Pure function .
+Only thing the function need to do is return.
+No need constructor, no need render function.
